@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    padding:0px;
+}
+header {
+    display: flex;
+    position: absolute;
+    top:0px;
+    width: 100vw;
+    height: 60px;
+    background-color: #0D1E58FF;
+    color: #FFFFFF;
+    margin: 0px;
+    box-shadow: 0px 0px 40px 20px #00000025;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header p {
+    margin-left: 1em;
+}
+
+main {
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.dl-button {
+    background-color: rgb(0, 27, 117);
+    color: #FFFFFF;
+    padding:10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: calc(36vh - 30px);
+}
+
+.about-button {
+    background-color: rgb(16, 33, 88);
+    color: #FFFFFF;
+    padding:10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: calc(36vh - 30px);
+}
+
+.card {
+    width: 400px;
+    height: 175px;
+    padding:25px;
+    margin: 2px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: #777777 1px solid;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 35px;
+    margin:-10px;
+}
+
+img {
+    width: ;
+    height: 200px;
+}
+
+.sort-image {
+    display:flex;
+}
+
+.margin-image {
+    margin: 10px;
+}
